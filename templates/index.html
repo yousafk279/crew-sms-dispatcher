@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crew Dispatcher Pro</title>
+    <style>
+        body { font-family: sans-serif; background: #0f0f0f; color: white; text-align: center; padding: 50px; }
+        .box { background: #1e1e1e; padding: 40px; border-radius: 12px; display: inline-block; border: 1px solid #333; }
+        h1 { color: #007bff; }
+        textarea { width: 100%; height: 100px; margin: 20px 0; background: #222; color: white; border: 1px solid #444; padding: 10px; border-radius: 5px; }
+        button { background: #007bff; color: white; border: none; padding: 15px 30px; border-radius: 5px; cursor: pointer; font-weight: bold; width: 100%; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>🚀 Crew Dispatcher</h1>
+        <form action="/send-alert/" method="post">
+            <textarea name="message" placeholder="Type message to all crew members..." required></textarea>
+            <button type="submit">SEND BLAST</button>
+        </form>
+    </div>
+</body>
+</html>
