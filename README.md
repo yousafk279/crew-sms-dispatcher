@@ -30,3 +30,4 @@ A high-fidelity, full-stack communication dashboard built for rapid alert broadc
 3. **API Logic**: 
    - If `TWILIO_ACCOUNT_SID` is detected in environment variables, the system executes a real SMS broadcast.
    - If variables are missing, the system enters **Demo Mode**, simulating network latency and providing a successful UI response for testing purposes.
+![Data Export Proof](logs_proof.png)
